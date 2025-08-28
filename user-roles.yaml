@@ -1,0 +1,16 @@
+# Brief schema reference 
+# users = {
+# username = string 
+# roles  = (readonly | developer | admin | auditor)[]
+# }[]
+
+
+users: 
+- username: john
+  roles: [readonly, developer]
+- username: mikey
+  roles: [admin, auditor]
+- username: devonne
+  roles:  [readonly]  
+
+
